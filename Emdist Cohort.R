@@ -1,7 +1,7 @@
 # This script is adapted from https://github.com/gooberholtzer/emd-on-tsne
 # Adaptation: Made script more succinct and more efficient.
 
-source(file="Flow Emd.R")
+source(file="Flow EMD.R")
 
 cohort_dir <- paste(getwd(),"/txt", sep="")
 output_file <- paste(cohort_dir,"/cohort.csv", sep="")
