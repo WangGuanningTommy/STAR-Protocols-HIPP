@@ -9,7 +9,7 @@ if(!require('emdist')) {install.packages('emdist')}
 library("emdist")
 
 # read configuration values
-source( "Config.R")
+source("Config.R")
 
 read_sample_file_to_dataframe <- function ( sample_file ) {
   print( sprintf("Loading %s", sample_file))
