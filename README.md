@@ -12,42 +12,42 @@ like DNA/RNA sequencing, mass spectrometry, and biochemical tests.
 .fcs files with high dimensional features (umap_1, umap_2).
 
 # Scripts:
-## Cleanup FCS to TXT.R:
+## FCS to TXT.R:
 .fcs to .txt conversion.
 
 Input: .fcs files with high dimensional features (umap_1, umap_2).
 
 Output: .txt files with "renamedcols".
 
-## Cleanup Config.R:
+## Config.R:
 Change the setting of EMD algorithm.
 
-## Cleanup Flow EMD.R:
+## Flow EMD.R:
 Define functions for the EMD calculations.
 
-## Cleanup Emdist Cohort.R:
+## Emdist Cohort.R:
 Perform EMD calculation.
 
 Input: .txt files with “renamedcols” in the txt folder.
 
 Output: EMD figures in the txt/graphics folder.
 
-## Cleanup EMD Clusting.R:
+## EMD Clusting.R:
 EMD visualization (heatmap).
 
-Input: EMD results (from Cleanup Emdist Cohort.R).
+Input: EMD results (from Emdist Cohort.R).
 
 Output: EMD results in heatmap.
 
 ## EMD Summary.R:
 Summarize the file names and EMD groups in one spreadsheet.
 
-Input EMD results (from Cleanup Emdist Cohort.R).
+Input EMD results (from Emdist Cohort.R).
 
 Output: EMD results in spreadsheet.
 
 ## Max Iterations Comparison.R:
-Optional script for different max iteration comparison in Cleanup Config.R.
+Optional script for different max iteration comparison in Config.R.
 
 # Reference:
 The Human Immune Profiling Pipeline for high-throughput interrogation of immune responses STAR Protocols (under revision)
