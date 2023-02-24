@@ -35,7 +35,7 @@ Output: EMD figures in the txt/graphics folder.
 ## Cleanup EMD Clusting.R:
 EMD visualization (heatmap).
 
-Input: EMD results (from Cleanup Emdist Cohort.R).\
+Input: EMD results (from Cleanup Emdist Cohort.R).
 
 Output: EMD results in heatmap.
 
