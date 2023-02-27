@@ -26,7 +26,7 @@ Define functions for the EMD calculations.
 ### Emdist Cohort.R:
 Perform EMD calculation.
 
-Input: .txt files with “renamedcols” in the txt folder (from FCS to TXT.R).
+Input: .txt files with “renamedcols” in the txt folder (from FCS to TXT.R).  
 Output: EMD figures in the txt/graphics folder.
 
 ### EMD Clusting.R:
